@@ -1,5 +1,6 @@
 const calc = (num) =>{
-    console.log( num * num );
+    return num * num ;
 }
 
-calc(65);
+result = calc(65);
+console.log(result);
