@@ -18,6 +18,6 @@ function calc(num){
     }else if(num % 3 == 0 ){
         console.log('3の倍数です');
     }else{
-        console.log('3の倍数でも5の倍数でもありません。');
+        console.log('num:' + num);
     }
 }
